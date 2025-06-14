@@ -1,0 +1,18 @@
+#!name=Apple Intelligence
+#!desc=Apple Intelligence / Siri / iCloud / ChatGPT 分流插件
+#!author=ChatGPT
+
+[Rule]
+DOMAIN-SUFFIX,guzzoni.apple.com,PROXY
+DOMAIN-SUFFIX,siri.apple.com,PROXY
+DOMAIN-SUFFIX,dictation.apple.com,PROXY
+DOMAIN-SUFFIX,analysis.apple.com,PROXY
+DOMAIN-SUFFIX,data.apple.com,PROXY
+DOMAIN-SUFFIX,icloud.com,PROXY
+DOMAIN-SUFFIX,itunes.apple.com,PROXY
+DOMAIN-SUFFIX,apple.news,PROXY
+DOMAIN-SUFFIX,apple.com,PROXY
+DOMAIN-SUFFIX,openai.com,PROXY
+DOMAIN-SUFFIX,chatgpt.com,PROXY
+DOMAIN,api.apple-cloudkit.com,PROXY
+DOMAIN,api.apple-cloudkit.com.cn,PROXY
